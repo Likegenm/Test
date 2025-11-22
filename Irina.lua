@@ -8,6 +8,7 @@ platform.Color = Color3.fromRGB(0, 0, 0)
 platform.Material = Enum.Material.Plastic
 platform.Transparency = 0.8
 platform.Parent = workspace
+platform.ResetOnSpawn = false
 
 local StarterGui = game:GetService("StarterGui")
 StarterGui:SetCore("SendNotification", {
@@ -29,6 +30,7 @@ billboard.AlwaysOnTop = true
 billboard.SizeOffset = Vector2.new(0, 0)
 billboard.Adornee = character.Head
 billboard.Parent = character.Head
+billboard.ResetOnSpawn = false
 
 local textLabel = Instance.new("TextLabel")
 textLabel.Size = UDim2.new(1, 0, 1, 0)
@@ -39,6 +41,7 @@ textLabel.Font = Enum.Font.GothamBlack
 textLabel.TextStrokeTransparency = 0
 textLabel.TextStrokeColor3 = Color3.new(0, 0, 0)
 textLabel.Parent = billboard
+textLabel.ResetOnSpawn = false
 
 local function rainbowEffect()
     local time = 0
