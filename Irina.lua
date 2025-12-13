@@ -1,3 +1,5 @@
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('Likegenm scripts tsb loading', "All")
+
 local StarterGui = game:GetService("StarterGui")
 StarterGui:SetCore("SendNotification", {
     Title = "Script Loading!",
