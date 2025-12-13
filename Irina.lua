@@ -1,7 +1,7 @@
 local StarterGui = game:GetService("StarterGui")
 StarterGui:SetCore("SendNotification", {
-    Title = "TSB",
-    Text = "By Likegenm",
+    Title = "Script Loading!",
+    Text = "Join our discord",
     Duration = 5,
 })
 
