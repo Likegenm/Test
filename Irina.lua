@@ -1,14 +1,3 @@
-local platform = Instance.new("Part")
-platform.Name = "PlatformVoid"
-platform.Size = Vector3.new(100000, 10, 100000)
-platform.Position = Vector3.new(1.26, -7.33, -3.11)
-platform.Anchored = true
-platform.CanCollide = true
-platform.Color = Color3.fromRGB(0, 0, 0)
-platform.Material = Enum.Material.Plastic
-platform.Transparency = 0.8
-platform.Parent = workspace
-
 local StarterGui = game:GetService("StarterGui")
 StarterGui:SetCore("SendNotification", {
     Title = "TSB",
