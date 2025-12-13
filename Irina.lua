@@ -1,3 +1,10 @@
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local chatEvents = ReplicatedStorage:WaitForChild("DefaultChatSystemChatEvents")
+local sayMessageRequest = chatEvents:WaitForChild("SayMessageRequest")
+
+sayMessageRequest:FireServer(Player.Name + "Has likegenm script for tsb", "All")
+
 local StarterGui = game:GetService("StarterGui")
 StarterGui:SetCore("SendNotification", {
     Title = "Script Loading!",
