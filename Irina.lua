@@ -25,7 +25,7 @@ local function createRainbowTag()
     local textLabel = Instance.new("TextLabel")
     textLabel.Size = UDim2.new(1, 0, 1, 0)
     textLabel.BackgroundTransparency = 1
-    textLabel.Text = "God of GAROU"
+    textLabel.Text = "God"
     textLabel.TextSize = 40
     textLabel.Font = Enum.Font.GothamBlack
     textLabel.TextStrokeTransparency = 0
